@@ -1,5 +1,7 @@
 
 def install():
+    import os
+    import sys
     try:
         os.system("pip install --upgrade pip")
     except OSError:
