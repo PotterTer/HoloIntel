@@ -107,7 +107,7 @@ def function_name():
     [10] ContactFinder
           
 
-    Wifi-lan 
+    Wifi-lan for PC
     [11] Wifi-lan looks up tool
           
 
