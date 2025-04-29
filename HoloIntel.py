@@ -942,24 +942,7 @@ www.WiFimap.io
 wifispc.com
 wigle.net
         """)
-        wifi = input("Select Function: ")
-        if wifi == "1":
-            print("Wifi Lookup 1")
-            # Add your code for Wifi Lookup 1 here
-        elif wifi == "2":
-            print("Wifi Lookup 2")
-            # Add your code for Wifi Lookup 2 here
-        elif wifi == "3":
-            print("Wifi Lookup 3")
-            # Add your code for Wifi Lookup 3 here
-        elif wifi == "4":
-            print("Wifi Lookup 4")
-            # Add your code for Wifi Lookup 4 here
-        elif wifi == "5":
-            print("Wifi Lookup 5")
-            # Add your code for Wifi Lookup 5 here
-        else:
-            print("Invalid function selected.")
+        
     elif function == "0" or function == "exit" or function == "Exit":
         print("Exiting...")
         break
