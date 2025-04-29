@@ -548,6 +548,7 @@ def wifi_lan():
     pass
 
 def download_for_mobile():
+    import time
     print("Do you install module yet?")
     while True:
         down_or_not = str(input("\nDo you want to Downloads module for the first time you run?\nY/N: "))
