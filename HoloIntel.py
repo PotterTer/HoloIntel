@@ -39,7 +39,17 @@ def install():
         print("---------------------------\nInstall psutil successfully.\n")
     except ImportError:
         pass
-
+    try:
+        os.system("pip install beautifulsoup4")
+        print("---------------------------\nInstall bs4 successfully.\n")
+    except:
+        pass
+    try:
+        os.system("pip3 install beautifulsoup4")
+        print("---------------------------\nInstall bs4 successfully.\n")
+    except:
+        pass
+        
 def banner_for_install():
     print("""
           INSTALL FIRST      Version 1.3
